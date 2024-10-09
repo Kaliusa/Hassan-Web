@@ -1,0 +1,168 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  color: white;
+  background-color: #121212;
+}
+
+header {
+  text-align: center;
+  padding: 50px 0;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+h2 {
+  color: #ffa500; /* Orange color for headers */
+}
+
+.responsive-image {
+  width: 100%;
+  height: auto;
+  margin: 20px 0;
+}
+
+.header-menu {
+  position: relative; /* Position relative for the header menu */
+}
+
+.menu-button {
+  background: transparent;
+  border: none;
+  color: white;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.dropdown {
+  display: none; /* Hide dropdown initially */
+  position: absolute;
+  top: 30px;
+  right: 0;
+  background-color: #333;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  z-index: 10;
+}
+
+.dropdown ul {
+  list-style: none;
+  padding: 10px;
+}
+
+.dropdown li {
+  padding: 8px 12px;
+  color: white;
+  cursor: pointer;
+}
+
+.dropdown li:hover {
+  background-color: #ffa500; /* Highlight on hover */
+}
+
+.signup-button {
+  background-color: #ffa500;
+  color: black;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 10px; /* Add space between menu button and sign up */
+}
+
+.signup-button:hover {
+  transform: scale(1.1);
+}
+
+button {
+  background-color: #ffa500;
+  color: black;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+button:hover {
+  transform: scale(1.1);
+}
+
+.animation-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: -1;
+}
+
+/* Styling the Join the Conversation Section */
+section {
+  padding: 50px;
+  margin: 40px 0;
+  background-color: #1a1a1a; /* Dark background */
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.7); /* Add some shadow for a nice effect */
+}
+
+section h2 {
+  font-size: 2.5em;
+  color: #ffa500;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+section p {
+  font-size: 1.2em;
+  text-align: center;
+  color: #ddd; /* Slightly lighter text for readability */
+  margin-bottom: 30px;
+}
+
+#subscribeButton {
+  display: block;
+  margin: 0 auto;
+  background-color: #ffa500;
+  color: black;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 18px;
+}
+
+#subscribeButton:hover {
+  transform: scale(1.1);
+}
+
+#message {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 1.2em;
+  color: #00ff00; /* Green color for subscription confirmation */
+}
+
+.hidden {
+  display: none;
+}
+
+/* Footer Section */
+footer {
+  background-color: #000; /* Black background */
+  color: #fff; /* White text */
+  padding: 20px 0;
+  text-align: center;
+  margin-top: 50px;
+}
+
+footer p {
+  margin: 10px 0;
+  color: #ddd; /* Light text color */
+}
